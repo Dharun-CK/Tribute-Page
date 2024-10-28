@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Playwrite+FR+Moderne:wght@100..400&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>DharunC.K's WelcomePage</title>
+<link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="container">
+    <h1 id="title"><em>Google job Application</em></h1>
+    <p id="description" > The Best Never Rest </p>
+      <form class="survey-form" id="survey-form">
+        <fieldset class="field">
+      <legend><label for="name"  id="name-label">Name </legend> <input type="text" placeholder="Enter Name here" id="name" required > </label></fieldset>
+      <fieldset class="field">
+<legend> <label for="email"  id="email-label">E-mail  </legend><input type="email" placeholder="Enter E-mail here" id="email" pattern="[a-z0-5]{8,}" required ></label></fieldset>
+
+<fieldset class="field"> <legend> <label for="number" id="number-label" >Number </legend> <input type="number" min="10" max="100" id="number" placeholder="Enter Number here" required></fieldset>
+
+<fieldset class="field"> <legend> <label for="dept-label" >Department </legend> 
+<select id="dropdown">
+  <option read-only>Select Your Department</option>
+  <option> B.Tech Information Technology</option>
+    <option> B.E Computer Science </option>
+  <option>B.E EEE</option>
+   <option>B.E ECE</option>
+    <option>B.E Civil</option>
+     <option>B.E Mech</option>
+  </select>
+</fieldset> 
+
+<fieldset class="field1">
+<legend><label>Gender
+</label></legend><br>
+<label for="m" ><input type="radio" class="ck"  name="gender" value="male" id="m" checked> Male</label>
+
+<label for="f" ><input id="f" type="radio" class="ck" name="gender" value="female"> Female</label>
+
+  </fieldset>
+
+
+
+ <fieldset class="field1">
+      <legend><label class="ck">Soft Skills</legend></label>
+<label for="com">
+    <input type="checkbox" class="ck" value="communication" 
+    name="skills" id="com">Communication
+</label>
+<br>
+<label for="dm">
+    <input type="checkbox" class="ck" value="decisionmakinng" 
+    name="skills" id="com">Decision Making
+</label><br>
+<label for="ct">
+    <input type="checkbox" class="ck" value="criticalthink" 
+    name="skills" id="com">Critical Thinking
+</label><br>
+<label for="analyst">
+    <input type="checkbox" class="ck" value="analyst" 
+    name="skills" id="analyst">Data  Development
+</label>
+<br>
+<label for="program">
+    <input type="checkbox" class="ck" value="program" 
+    name="skills" id="program">Programming Skills
+</label>
+     </fieldset>
+     <br>
+      
+      <fieldset class="field">
+        <label for="sur">
+        Share Your Experience <br><textarea placeholder="Enter your Thoughts"  id="sur" rows="10" cols="80">
+          </textarea>
+          </label>
+        </fieldset>
+ 
+ <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
+
+    <body>
+  </html>
